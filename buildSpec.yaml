@@ -6,7 +6,7 @@ phases:
       python: 3.7
 
     commands:
-      - echo install
+      - echo installing
 
   pre_build:
     commands:
