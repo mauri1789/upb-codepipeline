@@ -64,5 +64,5 @@ aws cloudformation deploy \
 fi
 
 if [[ $r -eq 1 ]]; then
-    echo remove
+    echo removes
 fi
