@@ -48,7 +48,8 @@ if [[ $b -eq 1 ]]; then
   
 aws cloudformation package \
   --template-file template.yaml \
-  --s3-bucket $DEPLOYMENTS_BUCKET
+  --s3-bucket $DEPLOYMENTS_BUCKET \
+  --output-template-file $CF_FILE
 
 fi
 
