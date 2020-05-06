@@ -6,7 +6,7 @@ phases:
       python: 3.7
 
     commands:
-      - echo installing
+      - ./build.sh -i
 
   pre_build:
     commands:
@@ -15,11 +15,11 @@ phases:
 
   build:
     commands:
-      - echo deploy
+      - ./build.sh -b
 
   post_build:
     commands:
-      - echo post_build
+      - echo post_builds
 
 artifacts:
   files:
