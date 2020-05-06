@@ -7,7 +7,7 @@ Resources:
   MyLambdaRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: my-lambda-role5
+      RoleName: my-lambda-role7
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
